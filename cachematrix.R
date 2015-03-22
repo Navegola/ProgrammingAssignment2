@@ -41,6 +41,8 @@ cacheSolve <- function(x, ...) {
 }
 
 
+## And check its correct
+
 matrix<-rbind(c(2, 0, 1), c(3, 0, 0),c(5,1,1))
 
 cache<-makeCacheMatrix()
